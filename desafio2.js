@@ -2,6 +2,7 @@
 let player = calcularRanking(93, 25)
 
 console.log(player)
+
 function  calcularRanking(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas
     let totalDePartidas = vitorias + derrotas
